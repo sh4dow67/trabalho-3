@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pontos de Estacionamento de Bicicletas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Estacionamento de Bicicletas - Campus Universitário</h1>
+
+  <div id="container" class="container"></div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true">
+      <span id="closeModal" class="close">&times;</span>
+      <h2>Informações Adicionais</h2>
+      <p id="modalInfo"></p>
+    </div>
+  </div>
+
+  <div class="legenda acessibilidade">
+    <h2>Legenda de Cores:</h2>
+    <div><span class="cor-disponivel">🟢 Disponível:</span> mais da metade das vagas livres</div>
+    <div><span class="cor-quase-cheio">🟡 Quase Cheio:</span> menos da metade das vagas livres</div>
+    <div><span class="cor-lotado">🔴 Lotado:</span> nenhuma vaga livre</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

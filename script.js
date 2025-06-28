@@ -1,7 +1,7 @@
 const pontos = [
   {
     id: 'P01',
-    local: 'Biblioteca',
+    local: 'Bloco 1',
     capacidade: 20,
     ocupadas: 8,
     coberto: true,
@@ -9,7 +9,7 @@ const pontos = [
   },
   {
     id: 'P02',
-    local: 'Bloco A',
+    local: 'Bloco 2',
     capacidade: 15,
     ocupadas: 12,
     coberto: false,
@@ -17,7 +17,7 @@ const pontos = [
   },
   {
     id: 'P03',
-    local: 'Bloco C',
+    local: 'Bloco 3',
     capacidade: 10,
     ocupadas: 10,
     coberto: true,
